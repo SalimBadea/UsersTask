@@ -8,7 +8,7 @@ plugins {
 }
 
 android {
-    namespace = "com.aait.base"
+    namespace = "com.salem.base"
     compileSdk = 35
 
     defaultConfig {

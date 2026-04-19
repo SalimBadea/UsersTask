@@ -1,6 +1,3 @@
-import org.jetbrains.kotlin.konan.properties.Properties
-import java.io.FileInputStream
-
 plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.kotlin.android)
@@ -8,7 +5,7 @@ plugins {
 }
 
 android {
-    namespace = "com.aait.data"
+    namespace = "com.salem.data"
     compileSdk = 35
 
     defaultConfig {

@@ -8,13 +8,13 @@
 
     <fragment
         android:id="@+id/mainFirstFragment"
-        android:name="com.aait.base.ui.home.container.main_first.MainFirstFragment"
+        android:name="com.salem.base.ui.home.container.main_first.MainFirstFragment"
         android:label="fragment_home"
         tools:layout="@layout/fragment_main_first" />
 
     <fragment
         android:id="@+id/registrationFragment"
-        android:name="com.aait.base.ui.auth.registration.RegistrationFragment"
+        android:name="com.salem.base.ui.auth.registration.RegistrationFragment"
         android:label="fragment_registration"
         tools:layout="@layout/fragment_registration" />
 
