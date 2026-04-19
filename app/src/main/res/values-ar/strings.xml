@@ -1,0 +1,16 @@
+<resources>
+    <!--                validations                -->
+    <string name="please_enter_name">برجاء ادخال الاسم</string>
+    <string name="please_enter_age">برجاء ادخال العمر</string>
+    <string name="please_enter_job_title">برجاء ادخال الوظيفة</string>
+    <string name="please_enter_gender">برجاء ادخال الجنس</string>
+
+    <string name="name">الاسم</string>
+    <string name="age">العمر</string>
+    <string name="job_title">الوظيفة</string>
+    <string name="gender">الجنس</string>
+    <string name="male">ذكر</string>
+    <string name="female">انثي</string>
+    <string name="new_registration">تسجيل</string>
+    <string name="Home">Home</string>
+</resources>

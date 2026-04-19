@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--                Buttons                -->
+
+    <style name="ButtonPrimary">
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAppearance">@style/TxtBtn</item>
+        <item name="android:fontFamily">@null</item>
+        <item name="android:textColor">@color/colorWhite</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:backgroundTint">@color/colorPrimary</item>
+        <item name="cornerRadius">@dimen/_32sdp</item>
+    </style>
+
+    <style name="ButtonBorderedPrimary">
+        <item name="android:insetLeft">0dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetRight">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="android:textAppearance">@style/TxtBtn</item>
+        <item name="android:fontFamily">@null</item>
+        <item name="android:textColor">@color/colorPurple</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:backgroundTint">@color/colorGray</item>
+        <item name="cornerRadius">@dimen/_32sdp</item>
+        <item name="strokeColor">@color/colorPrimary</item>
+        <item name="strokeWidth">@dimen/_1sdp</item>
+    </style>
+
+    <!--                Texts                -->
+
+    <style name="TxtHeader">
+        <item name="android:fontFamily">@font/sst_arabic_bold</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/_14ssp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="TxtTitle">
+        <item name="android:fontFamily">@font/sst_arabic_medium</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="TxtDesc">
+        <item name="android:fontFamily">@font/sst_arabic_roman</item>
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <style name="TxtBtn">
+        <item name="android:fontFamily">@font/sst_arabic_medium</item>
+        <item name="android:textSize">@dimen/_12ssp</item>
+        <item name="android:includeFontPadding">false</item>
+    </style>
+
+    <!--                InputFields                -->
+
+    <style name="txtInputLayoutFilled" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense">
+        <item name="boxBackgroundColor">@color/colorMidGray</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/_50sdp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/_50sdp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/_50sdp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/_50sdp</item>
+        <item name="cursorColor">@color/colorPrimary</item>
+        <item name="hintTextColor">@color/colorMidLightGray</item>
+        <item name="hintAnimationEnabled">false</item>
+        <item name="hintEnabled">false</item>
+        <item name="errorEnabled">true</item>
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
+    </style>
+
+    <style name="Theme.App.TextInputLayout.Selection" parent="Widget.MaterialComponents.TextInputLayout.OutlinedBox.Dense.ExposedDropdownMenu">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColorHint">@color/colorInfoGray</item>
+        <item name="hintTextColor">@color/colorInfoGray</item>
+        <item name="marginHorizontal">@dimen/_12sdp</item>
+        <item name="endIconTint">@color/colorInfoGray</item>
+        <item name="elevation">0dp</item>
+        <item name="hintEnabled">false</item>
+        <item name="endIconDrawable">@drawable/ic_arrow_drop_down</item>
+        <item name="backgroundColor">@color/colorMidGray</item>
+        <item name="boxBackgroundColor">@color/colorMidGray</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/_50sdp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/_50sdp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/_50sdp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/_50sdp</item>
+        <item name="boxStrokeErrorColor">@color/colorRed</item>
+        <item name="boxStrokeColor">@color/colorPrimary</item>
+        <item name="rippleColor">@null</item>
+        <item name="boxStrokeWidth">0dp</item>
+        <item name="boxStrokeWidthFocused">1dp</item>
+        <item name="errorTextColor">@color/colorRed</item>
+    </style>
+
+    <style name="edit_txt_filled" parent="Widget.AppCompat.EditText">
+        <item name="android:textSize">@dimen/_10ssp</item>
+        <item name="android:textColor">@color/colorBlack</item>
+        <item name="android:fontFamily">@font/sst_arabic_roman</item>
+        <item name="android:includeFontPadding">false</item>
+        <item name="android:textAlignment">viewStart</item>
+        <item name="boxBackgroundColor">@color/colorMidGray</item>
+        <item name="boxCornerRadiusBottomEnd">@dimen/_50sdp</item>
+        <item name="boxCornerRadiusBottomStart">@dimen/_50sdp</item>
+        <item name="boxCornerRadiusTopStart">@dimen/_50sdp</item>
+        <item name="boxCornerRadiusTopEnd">@dimen/_50sdp</item>
+    </style>
+
+    <!--                Images                -->
+
+    <style name="img_circle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">50%</item>
+    </style>
+
+    <style name="img_round">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">20%</item>
+    </style>
+
+    <style name="img_round_6_sdp">
+        <item name="cornerSize">@dimen/_6sdp</item>
+    </style>
+
+    <!--                bottom sheet                -->
+
+    <style name="BottomSheetDialogStyle" parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/bottomSheetBackground</item>
+    </style>
+
+    <style name="bottomSheetBackground" parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/shape_top_r12</item>
+    </style>
+
+    <!--                Animation                -->
+
+    <style name="Popup_translate_Animation">
+        <item name="android:windowEnterAnimation">@anim/popup_show_from_bottom</item>
+        <item name="android:windowExitAnimation">@anim/popup_hide_to_bottom</item>
+    </style>
+
+</resources>

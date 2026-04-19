@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/registrationFragment">
+
+
+    <fragment
+        android:id="@+id/mainFirstFragment"
+        android:name="com.aait.base.ui.home.container.main_first.MainFirstFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_main_first" />
+
+    <fragment
+        android:id="@+id/registrationFragment"
+        android:name="com.aait.base.ui.auth.registration.RegistrationFragment"
+        android:label="fragment_registration"
+        tools:layout="@layout/fragment_registration" />
+
+    <!--                    actions                    -->
+
+    <action
+        android:id="@+id/action_global_mainFirstFragment"
+        app:destination="@+id/mainFirstFragment"
+        app:enterAnim="@anim/fade_in"
+        app:exitAnim="@anim/fade_out"
+        app:popEnterAnim="@anim/fade_in"
+        app:popExitAnim="@anim/fade_out" />
+
+    <action
+        android:id="@+id/action_global_registrationFragment"
+        app:destination="@+id/registrationFragment"
+        app:enterAnim="@anim/fade_in"
+        app:exitAnim="@anim/fade_out"
+        app:popEnterAnim="@anim/fade_in"
+        app:popExitAnim="@anim/fade_out" />
+
+</navigation>
